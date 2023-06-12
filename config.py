@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+from sqlalchemy import SQLAlchemy
 
 class Config:
     DEBUG = False
@@ -8,3 +9,6 @@ class Config:
     CORS_ORIGINS = ['http://localhost:3000', 'https://cjtakhar.github.io']
 
 load_dotenv()
+
+# You can create an instance of the SQLAlchemy class for working with your database
+db = SQLAlchemy()
