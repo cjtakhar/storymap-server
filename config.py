@@ -9,6 +9,7 @@ class Config:
     CORS_ORIGINS = ['http://localhost:3000', 'https://cjtakhar.github.io']
 
 load_dotenv()
+db_password = os.getenv("DB_PASSWORD")
 
 # You can create an instance of the SQLAlchemy class for working with your database
 db = SQLAlchemy()
