@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 
 class Config:
     DEBUG = False
