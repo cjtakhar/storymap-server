@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, g
 from flask_cors import CORS
 from models import db, User, Card
 from config import Config
+from sqlalchemy.dialects import postgresql
 import jwt
 
 app = Flask(__name__)
