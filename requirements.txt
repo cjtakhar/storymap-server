@@ -17,6 +17,6 @@ PyJWT==2.7.0
 python-dotenv==0.21.0
 pytz==2023.3
 six==1.16.0
-SQLAlchemy==2.0.16
+SQLAlchemy
 typing_extensions==4.6.3
 Werkzeug==2.2.3
